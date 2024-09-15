@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #f7c08a;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content img {
+    width: 100px;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    color: #7b3f00;
+}
+
+/* Event Details */
+.event-details, .sponsorship, .donation-tracker {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sponsorship */
+.sponsorship ul {
+    list-style-type: none;
+}
+
+.sponsorship ul li {
+    padding: 10px 0;
+}
+
+/* Donation Tracker */
+.donation-tracker {
+    text-align: center;
+}
+
+.total-amount {
+    font-size: 2em;
+    font-weight: bold;
+    color: orange;
+}
+/* Segments Section */
+.segments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.segment {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Align content with space between */
+}
+
+.segment h2 {
+    font-size: 1.5em;
+    /*color: #7b3f00; */
+    color: red;
+}
+
+.segment p {
+    margin: 10px 0;
+}
+
+.donate-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-link:hover {
+    background-color: #1e8449;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
